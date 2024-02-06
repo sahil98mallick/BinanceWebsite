@@ -1,0 +1,309 @@
+.bodycontent {
+  width: 100% !important;
+  height: auto;
+  overflow-x: hidden !important;
+  /* background-color: white; */
+}
+
+.header-container {
+  /* background: linear-gradient(90deg, rgba(2, 180, 186, 1) 0%, rgba(4, 105, 233, 1) 35%, rgba(16, 169, 200, 1) 100%); */
+  box-shadow: none;
+  border-radius: 50px;
+  margin: auto !important;
+}
+
+.brandlogo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.brandname {
+  font-size: 30px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.navitems {
+  text-decoration: none;
+  font-size: 19px;
+  color: whitesmoke;
+}
+
+.resnavitems {
+  text-decoration: none;
+  font-size: 19px;
+  color: rgb(10, 10, 10);
+}
+
+.resmenu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+
+/* Home Page All CSS */
+
+.main-contents {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.assetstablecontent1 {
+  width: 30%;
+  height: auto;
+  padding-bottom: 5px;
+  /* background-color: #006edc; */
+}
+
+.assetstablecontent2 {
+  width: 65%;
+  height: auto;
+  padding-bottom: 5px;
+  /* background-color: #006edc; */
+}
+
+/* Assets Table */
+.assetstable {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.tablepagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Global Table Design */
+
+.custom-table-container {
+  width: 100%;
+  margin: auto;
+}
+
+.tableheader {
+  background: #006edc;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.custom-table {
+  width: 90%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin: auto;
+}
+
+.custom-row:hover {
+  background-color: #CACFD2;
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
+.custom-cell {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid lightblue;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.custom-cell.header {
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+}
+
+.btndesign {
+  text-decoration: none;
+  border-radius: 20px;
+  color: rgb(245, 245, 245);
+}
+
+.viewbtn {
+  text-decoration: none;
+  border-radius: 20px;
+  color: rgb(19, 1, 1);
+}
+
+.viewbtn:hover {
+  text-decoration: none;
+  border-radius: 20px;
+  color: rgb(8, 55, 223);
+}
+
+.btndesign:hover {
+  background-color: #d1d6da;
+}
+
+.actionbtn {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Single Modal */
+.custom-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  background: linear-gradient(90deg, rgba(222, 254, 255, 1) 0%, rgba(243, 248, 249, 1) 35%, rgba(224, 233, 235, 1) 100%);
+  padding: 20px;
+  z-index: 1000;
+  box-shadow: none;
+}
+
+.singledetails-container {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.singletext {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  /* font-size: 15px; */
+}
+
+@media only screen and (max-width: 600px) {
+  .singledetails-container {
+    flex-wrap: wrap;
+  }
+
+
+  .singletext {
+    padding: 0px;
+    font-size: 15px;
+  }
+}
+
+/* Banner Card */
+.bannnercard {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 10px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  background-color: #F2F3F4;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: -11px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+  background: radial-gradient(circle, rgba(206, 220, 240, 1) 0%, rgba(236, 244, 254, 1) 100%);
+}
+
+.bannericons {
+  font-size: 45px;
+  color: rgb(9, 80, 235);
+}
+
+.cardtitle {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+
+.cardamt {
+  font-size: 40px;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+  .bannnercard {
+    gap: 5px;
+  }
+
+  .card {
+    margin-top: 5px;
+  }
+}
+
+
+
+
+/* Market Page */
+.market-page {
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  /* background-color: #3498db; */
+}
+
+.markettable {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+/* Exchange Page */
+.exchanges-page {
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  /* background-color: #006edc; */
+  padding-bottom: 10px;
+}
+
+.exchangeDetailspage {
+  margin-top: 30px !important;
+  width: 700px;
+  height: 300px;
+  /* background-color: #006edc; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.exchangetext {
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin: auto;
+  height: auto;
+  padding: 30px;
+}
