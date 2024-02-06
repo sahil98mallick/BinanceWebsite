@@ -47,7 +47,7 @@ const Header = () => {
 
     return (
         <>
-            <AppBar position="sticky" className='header-container' sx={headerStyles}>
+            <AppBar position="static" className='header-container' sx={headerStyles}>
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
                         <Box sx={{ display: { xs: 'none', md: 'flex', justifyContent: "center", alignItems: "center", gap: "5px" } }}>

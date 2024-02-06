@@ -21,7 +21,7 @@ const Wrapper = (props: wrapperProps) => {
     };
     return (
         <>
-            <Box maxWidth="xl" sx={wrapperStyles}>
+            <Box sx={wrapperStyles}>
                 <Header />
                 <Box className="bodycontent" sx={wrapperStyles}>
                     {children}
